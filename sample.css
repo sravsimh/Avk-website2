@@ -1,0 +1,20 @@
+iframe {
+    height: 18rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 530px;
+}
+
+.ytvid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #191c94;
+    font-weight: 900;
+}

@@ -452,13 +452,15 @@ h6 {
     border: 2px solid black;
     color: #fff;
     padding: 8px 35px;
-    background: none;
+    background: #01028c;
     margin-top: 27px;
 }
 
 #hero {
     width: 100%;
-    background: url(/assets/img/home-page-img.jpeg);
+    background: url(/home-page-img.jpeg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     padding: 120px 0 0 0;
     background-position: center;
@@ -477,7 +479,7 @@ h6 {
 
 #hero h1 {
     margin: 0 0 20px 0;
-    font-size: 98px;
+    font-size: 130px;
     font-weight: 700;
     line-height: 136px;
     color: rgba(255, 255, 255, 0.8);
@@ -491,7 +493,7 @@ h6 {
 #hero h2 {
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 40px;
-    font-size: 24px;
+    font-size: 60px;
 }
 
 #hero .btn-get-started {
@@ -668,7 +670,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f5f5ff;
+    background-color: #fff;
 }
 
 #features .container .row img {
