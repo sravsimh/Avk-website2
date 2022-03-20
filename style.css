@@ -318,6 +318,12 @@ h6 {
     }
 }
 
+@media (max-width: 991px) {
+    .navbar>ul>li>a:before {
+        bottom: 1px;
+    }
+}
+
 
 /**
 * Mobile Navigation 
