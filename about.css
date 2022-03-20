@@ -22,7 +22,7 @@ h1 {
     /* font-family: Roboto; */
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     /* line-height: 64px; */
     color: #1b9727;
     padding: 15px 5px;
@@ -88,6 +88,7 @@ p {
     font-size: 22px;
 }
 
-ul {
-    font-size: 22px;
+ul,
+ol {
+    font-size: 17px;
 }
