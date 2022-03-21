@@ -1238,7 +1238,7 @@ section {
 }
 
 .team .member img {
-    transition: all ease-in-out 0.4s;
+    transition: all cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.4s;
 }
 
 .team .member:hover img {
