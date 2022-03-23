@@ -173,9 +173,9 @@ h6 {
 }
 
 #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
+    width: 362px;
+    max-height: none;
+    margin-top: 10px;
 }
 
 
@@ -456,10 +456,14 @@ h6 {
 #hero .container .btn-dark {
     border-radius: 20px;
     border: 2px solid black;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 8px 35px;
-    background: #01028c;
+    background: transparent;
     margin-top: 27px;
+}
+
+#hero .container .btn-dark:hover {
+    background: #010483;
 }
 
 #hero {
@@ -698,6 +702,15 @@ section {
     text-transform: uppercase;
     color: #04087f;
     font-family: "Poppins", sans-serif;
+}
+
+.section-title .testi h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: white;
+    margin: 12px 3px;
 }
 
 .section-title h2::after {
@@ -1113,7 +1126,7 @@ section {
     background-position: center center;
     background-size: cover;
     position: relative;
-    background: blue;
+    background: #010483;
 }
 
 .testimonials::before {
@@ -1123,7 +1136,6 @@ section {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(1, 3, 111, 0.8);
 }
 
 .testimonials .section-header {
@@ -1649,6 +1661,10 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+#footer a {
+    color: #1acc8d;
+}
 
 .footer-social .social a {
     font-size: 20px;
